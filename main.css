@@ -22,11 +22,13 @@ body {
     font-style: normal;
     font-size: 16px;
     background-color: #F3F6FF;
+    width: 1296px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 header {
     margin-inline: 5rem;
-    width: 1296px;
 }
 .top-container {
     width: 100%;
@@ -42,10 +44,6 @@ header .top-container {
     gap: 1.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-}
-
-#logo-link {
-    width: 200px;
 }
 
 a {
@@ -143,8 +141,6 @@ body.dark-mode {
     margin-right: 0.5rem;
 }
 
-
-
 .btn-mobile {
     background-color: transparent;
     border: none;
@@ -193,10 +189,16 @@ body.dark-mode {
     font-size: 12px;
 }
 
+
+
+
+
+
+
+
 #brands {
     margin-top: 6rem;
     display: block;
-
 
     .brand-container {
         display: flex;
@@ -216,8 +218,25 @@ body.dark-mode {
 }
 
 
+.brand-page-main-container {
+    display: flex;
+    flex: 1fr 2fr;
+    justify-content: center;
+    margin-top: 6rem;
+}
 
 
+.app-features-container {
+  margin-left: 5rem;
+  display: block;
+  
+
+
+  .app-features {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
 /* @media (min-width 768px) {
 
 } */
